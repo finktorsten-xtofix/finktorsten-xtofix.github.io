@@ -14,8 +14,8 @@
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://finktorsten-xtofix.github.io/">
 <style>
-:root{--page-width:980px;--text:#1c1c1c;--muted:#666;--border:#d9d9d9;--featured:#fff9d8;--featured-border:#efe2a6;--link:#1f57a4;--bg:#fff;--radius:6px}
-@media (prefers-color-scheme:dark){:root{--bg:#0B0D12;--text:#ECE7DC;--muted:#9C9890;--link:#C9A96A;--border:#2a2e38;--featured:#1b1a12;--featured-border:#4a4126}}
+:root{--page-width:980px;--text:#1c1c1c;--muted:#666;--border:#d9d9d9;--featured:linear-gradient(90deg,rgba(255,92,138,.10),rgba(201,169,106,.18));--featured-border:#e6cfa3;--link:#1f57a4;--bg:#fff;--radius:6px}
+@media (prefers-color-scheme:dark){:root{--bg:#0B0D12;--text:#ECE7DC;--muted:#9C9890;--link:#C9A96A;--border:#2a2e38;--featured:linear-gradient(90deg,rgba(255,92,138,.10),rgba(201,169,106,.12));--featured-border:rgba(201,169,106,.38)}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.55}
 a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
@@ -30,7 +30,7 @@ a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
 .highlight{background:var(--featured);border-radius:2px;padding:0 5px}
 .list{display:grid;gap:16px}
 .item{display:grid;grid-template-columns:180px minmax(0,1fr);gap:20px;align-items:center;border-top:1px solid var(--border);border-radius:var(--radius);padding:16px}
-.item.featured{background:var(--featured);border:1px solid var(--featured-border)}
+.item.featured{background:var(--featured);border:1px solid var(--featured-border);border-left:3px solid #FF5C8A}
 .item-media img{width:160px;height:auto;aspect-ratio:16/10;object-fit:cover;display:block;border-radius:2px;margin:0 auto}
 .item-title{margin:0 0 6px;font-size:18px;font-weight:600;line-height:1.35}
 .item-meta,.item-links,.item-desc{margin:0 0 6px}
@@ -128,11 +128,11 @@ footer{margin-top:32px;padding-top:18px;border-top:1px solid var(--border);color
           <p class="item-desc">Reisebericht Tessin: Locarno und Ascona am Lago Maggiore, die Piazza Grande mit dem größten Freiluftkino der Welt und der Aussteigerberg Monte Verità.</p>
         </div>
       </article>
-      <article class="item featured">
+      <article class="item">
         <a class="item-media" href="https://torsten-fink.de/stories/beldibi.html"><picture><source type="image/webp" srcset="images/beldibi.webp"><img src="images/beldibi.jpg" width="640" height="853" alt="Beldibi" loading="lazy"></picture></a>
         <div class="item-copy">
           <p class="item-title"><a href="https://torsten-fink.de/stories/beldibi.html">Beldibi: Türkisfarbenes Wasser &amp; Russische Geschichten</a></p>
-          <p class="item-meta"><em>Türkische Riviera · April 2026</em></p>
+          <p class="item-meta"><em>Türkische Riviera · September 2025</em></p>
           <p class="item-links"><a href="https://torsten-fink.de/stories/beldibi.html">lesen</a></p>
           <p class="item-desc">Beldibi, türkische Riviera: kleines Hotel, steiniger Strand, türkisfarbenes Wasser, Taurus-Berge, Begegnungen zwischen Russland und der Ukraine.</p>
         </div>
