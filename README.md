@@ -7,4 +7,4 @@ Live: https://finktorsten-xtofix.github.io/
 - `index.html` – die ganze Seite, HTML und CSS in einer Datei, ohne JavaScript außer den Schema-Daten
 - `images/` – Vorschaubilder (640 px breit, JPG und WebP, ohne EXIF) und Favicon
 
-Layout nach der Vorlage von [Jon Barron](https://jonbarron.info/). Fotos und Texte © Torsten Fink.
+Layout nach der [Vorlage](https://github.com/jonbarron/jonbarron.github.io) von [Jon Barron](https://jonbarron.info/). Fotos und Texte © Torsten Fink.
